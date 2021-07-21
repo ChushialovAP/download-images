@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		064A8DDC26A80F7C00D0EB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A8DDB26A80F7C00D0EB12 /* AppDelegate.swift */; };
 		064A8DDE26A80F7C00D0EB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A8DDD26A80F7C00D0EB12 /* SceneDelegate.swift */; };
-		064A8DE026A80F7C00D0EB12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A8DDF26A80F7C00D0EB12 /* ViewController.swift */; };
 		064A8DE326A80F7C00D0EB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064A8DE126A80F7C00D0EB12 /* Main.storyboard */; };
 		064A8DE526A80F7F00D0EB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064A8DE426A80F7F00D0EB12 /* Assets.xcassets */; };
 		064A8DE826A80F7F00D0EB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064A8DE626A80F7F00D0EB12 /* LaunchScreen.storyboard */; };
+		064A8DF026A80FAF00D0EB12 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A8DEF26A80FAF00D0EB12 /* ImagesTableViewController.swift */; };
+		064A8DF226A813BC00D0EB12 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064A8DF126A813BC00D0EB12 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		064A8DD826A80F7C00D0EB12 /* downloadImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = downloadImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064A8DDB26A80F7C00D0EB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		064A8DDD26A80F7C00D0EB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		064A8DDF26A80F7C00D0EB12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		064A8DE226A80F7C00D0EB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		064A8DE426A80F7F00D0EB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064A8DE726A80F7F00D0EB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		064A8DE926A80F7F00D0EB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		064A8DEF26A80FAF00D0EB12 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		064A8DF126A813BC00D0EB12 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				064A8DDB26A80F7C00D0EB12 /* AppDelegate.swift */,
 				064A8DDD26A80F7C00D0EB12 /* SceneDelegate.swift */,
-				064A8DDF26A80F7C00D0EB12 /* ViewController.swift */,
 				064A8DE126A80F7C00D0EB12 /* Main.storyboard */,
 				064A8DE426A80F7F00D0EB12 /* Assets.xcassets */,
 				064A8DE626A80F7F00D0EB12 /* LaunchScreen.storyboard */,
 				064A8DE926A80F7F00D0EB12 /* Info.plist */,
+				064A8DEF26A80FAF00D0EB12 /* ImagesTableViewController.swift */,
+				064A8DF126A813BC00D0EB12 /* ImageTableViewCell.swift */,
 			);
 			path = downloadImages;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				064A8DE026A80F7C00D0EB12 /* ViewController.swift in Sources */,
+				064A8DF026A80FAF00D0EB12 /* ImagesTableViewController.swift in Sources */,
+				064A8DF226A813BC00D0EB12 /* ImageTableViewCell.swift in Sources */,
 				064A8DDC26A80F7C00D0EB12 /* AppDelegate.swift in Sources */,
 				064A8DDE26A80F7C00D0EB12 /* SceneDelegate.swift in Sources */,
 			);
